@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/EasyTerminalOfficial/EasyTerminalOfficial/assets/12345678/your-logo-image-name.png" alt="EasyTerminal Logo" width="150"/>
+  <img src="logo.png" alt="EasyTerminal Logo" width="150"/>
   <h1>EasyTerminal</h1>
   <p>
     <strong>Sebuah Pusat Kendali Jarak Jauh (Remote Control Center) Multi-Protokol yang All-in-One</strong>
@@ -18,10 +18,6 @@
   <h4><a href="https://easyterminal.netlify.app/">Kunjungi Website Resmi</a></h4>
 
 </div>
-
-<p align="center">
-  <img src="https://easyterminal.netlify.app/screenshot.png" alt="EasyTerminal Screenshot">
-</p>
 
 ## 🚀 Tentang Proyek
 
