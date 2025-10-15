@@ -12,11 +12,6 @@
 
 </div>
 
-<p align="center">
-  <img src="https://easyterminal.netlify.app/screenshot.png" alt="EasyTerminal Screenshot">
-</p>
-
-
 ## 🚀 About The Project
 
 EasyTerminal is more than just a terminal. It's an integrated control center built with Python and Tkinter, providing everything you need to manage remote servers and devices. By combining a terminal, an SFTP file manager, and a monitoring dashboard into a single application, EasyTerminal aims to streamline your workflow and boost productivity.
