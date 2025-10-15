@@ -2,119 +2,96 @@
   <img src="logo.png" alt="EasyTerminal Logo" width="150"/>
   <h1>EasyTerminal</h1>
   <p>
-    <strong>Sebuah Pusat Kendali Jarak Jauh (Remote Control Center) Multi-Protokol yang All-in-One</strong>
+    <strong>An All-in-One, Multi-Protocol Remote Control Center</strong>
   </p>
   <p>
-    Dirancang untuk Developer, Administrator Sistem, dan Penggemar Teknologi.
+    Designed for Developers, System Administrators, and Tech Enthusiasts.
   </p>
   
-  <p>
-    <a href="https://github.com/EasyTerminalOfficial/EasyTerminal/stargazers"><img src="https://img.shields.io/github/stars/EasyTerminalOfficial/EasyTerminal?style=for-the-badge&logo=github&color=00FF41" alt="Stars"></a>
-    <a href="https://github.com/EasyTerminalOfficial/EasyTerminal/network/members"><img src="https://img.shields.io/github/forks/EasyTerminalOfficial/EasyTerminal?style=for-the-badge&logo=github&color=00FF41" alt="Forks"></a>
-    <a href="https://github.com/EasyTerminalOfficial/EasyTerminal/issues"><img src="https://img.shields.io/github/issues/EasyTerminalOfficial/EasyTerminal?style=for-the-badge&logo=github&color=FFD700" alt="Issues"></a>
-    <a href="https://github.com/EasyTerminalOfficial/EasyTerminal/blob/main/LICENSE"><img src="https://img.shields.io/github/license/EasyTerminalOfficial/EasyTerminal?style=for-the-badge&color=888888" alt="License"></a>
-  </p>
-  
-  <h4><a href="https://easyterminal.netlify.app/">Kunjungi Website Resmi</a></h4>
+  <h4><a href="https://easyterminal.netlify.app/">Visit the Official Website</a></h4>
 
 </div>
 
-## 🚀 Tentang Proyek
+<p align="center">
+  <img src="https://easyterminal.netlify.app/screenshot.png" alt="EasyTerminal Screenshot">
+</p>
 
-EasyTerminal bukan sekadar terminal biasa. Ini adalah sebuah *control center* terintegrasi yang dibangun dengan Python dan Tkinter untuk menyediakan semua yang Anda butuhkan dalam mengelola server dan perangkat jarak jauh. Dengan menggabungkan terminal, file manager SFTP, dan dashboard monitoring dalam satu aplikasi, EasyTerminal bertujuan untuk menyederhanakan alur kerja Anda dan meningkatkan produktivitas.
 
-Aplikasi ini lahir dari kebutuhan akan alat yang cepat, aman, dan kaya fitur tanpa harus berganti-ganti aplikasi.
+## 🚀 About The Project
 
-## ✨ Fitur Utama
+EasyTerminal is more than just a terminal. It's an integrated control center built with Python and Tkinter, providing everything you need to manage remote servers and devices. By combining a terminal, an SFTP file manager, and a monitoring dashboard into a single application, EasyTerminal aims to streamline your workflow and boost productivity.
 
-EasyTerminal dikemas dengan fitur-fitur canggih untuk memberikan pengalaman manajemen jarak jauh yang superior:
+This application was born from the need for a tool that is fast, secure, and feature-rich, eliminating the need to switch between multiple apps.
 
-#### 1. Dukungan Multi-Protokol
-- **SSH:** Terminal interaktif penuh, SFTP, dan eksekusi perintah.
-- **Telnet:** Koneksi dasar untuk perangkat lama dan jaringan internal.
-- **FTP/FTPS:** File manager untuk server FTP, dengan opsi koneksi aman (FTPS).
-- **Serial (COM):** Terhubung langsung ke perangkat keras seperti mikrokontroler atau perangkat jaringan melalui port serial.
+## ✨ Key Features
 
-#### 2. Suite SSH & SFTP yang Powerfull
-- **Dual-Pane File Manager:** Kelola file lokal dan remote secara berdampingan dengan mudah.
-- **Operasi File Lengkap:** Upload, download, rename, hapus file/folder, dan buat file/folder baru.
-- **Monitoring Server Real-Time:** Pantau penggunaan CPU, RAM, Suhu, dan Disk server Anda langsung dari UI.
-- **Recycle Bin Cerdas:** Hapus file remote dengan aman! File akan dipindahkan ke *Recycle Bin* lokal di komputer Anda, bukan dihapus permanen.
-- **Editor Teks Nano Terintegrasi:** Edit file di server langsung dari EasyTerminal menggunakan editor mirip `nano` tanpa harus membuka terminal.
-- **Penampil Gambar:** Lihat gambar yang ada di server tanpa perlu mengunduhnya terlebih dahulu.
+EasyTerminal is packed with advanced features to provide a superior remote management experience:
 
-#### 3. Manajemen Terpusat
-- **Manajer Koneksi:** Simpan, kelola, dan kelompokkan semua detail koneksi Anda.
-- **Head-Command:** Jalankan satu perintah secara bersamaan di semua sesi SSH yang aktif. Sempurna untuk update massal atau pengecekan status.
-- **Pemulihan Sesi:** Aplikasi akan mengingat sesi aktif Anda dan menawarkan untuk memulihkannya saat Anda membuka kembali.
-- **Mode Idle Otomatis:** Sesi yang tidak aktif akan masuk ke mode hemat sumber daya untuk menjaga performa aplikasi.
+#### 1. Multi-Protocol Support
+- **SSH:** Full interactive terminal, SFTP file management, and command execution.
+- **Telnet:** Basic connectivity for legacy devices and internal networks.
+- **FTP/FTPS:** A complete file manager for FTP servers, with support for secure connections (FTPS).
+- **Serial (COM):** Connect directly to hardware like microcontrollers or network devices via a serial port.
 
-#### 4. Keamanan Terjamin
-- **Enkripsi Kredensial Lokal:** Semua *host*, *username*, dan *password* yang Anda simpan dienkripsi secara lokal menggunakan **AES-GCM**, sehingga aman dari akses yang tidak sah.
+#### 2. Powerful SSH & SFTP Suite
+- **Dual-Pane File Manager:** Effortlessly manage local and remote files side-by-side.
+- **Full File Operations:** Upload, download, rename, delete, and create new files and folders.
+- **Real-Time Server Monitoring:** Keep an eye on your server's CPU, RAM, Temperature, and Disk usage directly from the UI.
+- **Intelligent Recycle Bin:** Safely delete remote files! Instead of being permanently erased, files are moved to a local recycle bin on your computer.
+- **Integrated Nano-Style Text Editor:** Edit files on the server directly from EasyTerminal using a familiar `nano`-like editor without opening a separate terminal.
+- **Remote Image Viewer:** Preview images on the server without needing to download them first.
 
-## 🛠️ Dibangun Dengan
+#### 3. Centralized Management
+- **Connection Manager:** Securely save, manage, and group all your connection details.
+- **Head-Command:** Execute a single command across all active SSH sessions simultaneously—perfect for bulk updates or status checks.
+- **Session Restore:** The app remembers your active sessions and offers to restore them on startup.
+- **Automatic Idle Mode:** Inactive sessions enter a low-resource state to keep the application running smoothly.
 
-* **Python:** Bahasa utama pengembangan.
-* **Tkinter:** Untuk membangun antarmuka pengguna (GUI) yang responsif.
-* **Paramiko:** Pustaka utama untuk implementasi protokol SSH dan SFTP.
-* **Pillow (PIL):** Untuk fitur penampil gambar.
-* **Pyserial:** Untuk fungsionalitas koneksi Serial.
-* **Cryptography:** Untuk enkripsi data kredensial yang aman.
+#### 4. Security Focused
+- **Local Credential Encryption:** All saved hosts, usernames, and passwords are encrypted locally on your machine using **AES-GCM**, keeping them safe from unauthorized access.
 
-## 🏁 Memulai
+## 🛠️ Built With
 
-Untuk menjalankan EasyTerminal di mesin lokal Anda, ikuti langkah-langkah sederhana ini.
+* **Python:** The core language of development.
+* **Tkinter:** For the native and responsive Graphical User Interface (GUI).
+* **Paramiko:** The primary library for SSH and SFTP protocol implementation.
+* **Pillow (PIL):** Powers the remote image viewer feature.
+* **Pyserial:** Enables Serial (COM) port functionality.
+* **Cryptography:** Ensures the secure encryption of user credentials.
 
-1.  **Clone repositori**
-    ```sh
-    git clone [https://github.com/EasyTerminalOfficial/EasyTerminal.git](https://github.com/EasyTerminalOfficial/EasyTerminal.git)
-    cd EasyTerminal
-    ```
-2.  **Buat dan aktifkan virtual environment**
-    ```sh
-    # Untuk MacOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
-    
-    # Untuk Windows
-    python -m venv venv
-    .\venv\Scripts\activate
-    ```
-3.  **Install dependensi**
-    *(Pastikan Anda sudah membuat file `requirements.txt`)*
-    ```sh
-    pip install -r requirements.txt
-    ```
-4.  **Jalankan aplikasi**
-    ```sh
-    python Terminal.py
-    ```
+## 🏁 Getting Started
 
-## 🤝 Kontribusi
+Getting EasyTerminal up and running is simple. The application is distributed as a standalone executable for ease of use.
 
-**Kontribusi adalah hal yang membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. Setiap kontribusi Anda sangat kami hargai.**
+1.  **Navigate** to the **[Official Website](https://easyterminal.netlify.app/)**.
+2.  **Download** the latest `.exe` release for Windows from the downloads section.
+3.  **Run** the executable. No complex installation required!
 
-Saat ini, EasyTerminal dikembangkan dan dikelola oleh satu orang. Sebagai **solo developer dari Indonesia**, saya membangun EasyTerminal karena kecintaan saya dalam membuat alat yang bermanfaat. Saya akan sangat senang jika ada developer lain yang mau bergabung untuk membuatnya menjadi lebih baik.
+## 🤝 Contributing
 
-Bantuan Anda, baik dalam bentuk:
-* Fitur baru
-* Laporan bug
-* Saran dan ide
-* Perbaikan dokumentasi
+**Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.**
 
-akan sangat berarti. Jangan ragu untuk membuat *Fork* dan *Pull Request*!
+Currently, EasyTerminal is developed and maintained by a single person. As a **solo developer from Indonesia**, I built this project out of a passion for creating useful tools. I would be thrilled to have other developers join in to make it even better.
 
-1.  Fork Proyek ini
-2.  Buat Branch Fitur Anda (`git checkout -b fitur/FiturLuarBiasa`)
-3.  Commit Perubahan Anda (`git commit -m 'Menambahkan FiturLuarBiasa'`)
-4.  Push ke Branch (`git push origin fitur/FiturLuarBiasa`)
-5.  Buka sebuah Pull Request
+Your help, whether in the form of:
+* New Features
+* Bug Reports
+* Suggestions & Ideas
+* Documentation Improvements
 
-## 📄 Lisensi
+would mean the world. Please feel free to Fork the repo and create a Pull Request!
 
-Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-## 📬 Kontak
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📬 Contact
 
 **EasyTerminal Official**
 
@@ -123,4 +100,4 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanj
 * **Telegram:** [https://t.me/EasyTerminalUpdate](https://t.me/EasyTerminalUpdate)
 
 ---
-Dibuat dengan ❤️ di Indonesia.
+Made with ❤️ in Indonesia.
